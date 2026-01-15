@@ -1,0 +1,8 @@
+from turtledemo.penrose import start
+from turtledemo.round_dance import stop
+
+total_sum =0
+for num in range(1,51):
+    total_sum = total_sum + num
+print(f"The sum of numbers from 1 to 50 is: {total_sum}")
+
